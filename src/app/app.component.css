@@ -1,0 +1,14 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & a{
+        cursor: pointer;
+        width: 600px;
+        height: 60px;
+        &:active{
+            opacity: 0.5;
+            transition-duration: 1s;
+        }
+    }
+}
